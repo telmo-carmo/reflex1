@@ -15,7 +15,7 @@ def dashboard() -> rx.Component:
         The UI for the dashboard page.
     """
     return rx.vstack(
-        rx.heading("CI Job Dashboard", size="5"),
+        rx.heading("Job Dashboard", size="5"),
         main_table(),
         spacing="8",
         width="100%",

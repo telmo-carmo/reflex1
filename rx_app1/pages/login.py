@@ -1,6 +1,7 @@
-
+from ..templates import template
 import reflex as rx
 
+@template(route="/login", title="Login")
 def login_default() -> rx.Component:
     return rx.card(
         rx.vstack(
